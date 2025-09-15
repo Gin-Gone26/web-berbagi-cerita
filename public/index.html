@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Berbagi Cerita - Dicoding</title>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#007bff" />
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+
+</head>
+
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header role="banner" class="site-header">
+    <div class="container">
+      <h1>Web Berbagi Cerita</h1>
+      <!-- Tombol Notifikasi Toggle -->
+<button id="btn-toggle-notif" class="btn-notif">🔔 Aktifkan Notifikasi</button>
+
+
+
+
+      <!-- NAV untuk desktop -->
+      <nav aria-label="Main navigation"></nav>
+
+      <!-- Tombol menu hamburger (selalu ada di kanan) -->
+      <button class="menu-toggle" aria-label="Toggle menu">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="28"
+          height="28">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </header>
+
+
+  <!-- Modal untuk navigasi mobile -->
+  <div class="nav-modal" id="navModal">
+    <div class="nav-modal-content"></div>
+  </div>
+
+
+  <main id="content" role="main" tabindex="-1">
+    <div id="app"></div>
+  </main>
+
+
+  <footer role="contentinfo" class="site-footer">
+    © 2025 Web Berbagi Cerita | Dibuat oleh Ahmad Akbar Ginanjar as GinGone
+    <!-- <div class="notif-controls">
+    <button id="btn-subscribe">Subscribe Notifikasi</button>
+    <button id="btn-unsubscribe">Unsubscribe Notifikasi</button>
+  </div> -->
+  </footer>
+
+
+  <div id="toast" class="toast"></div>
+</body>
+
+</html>

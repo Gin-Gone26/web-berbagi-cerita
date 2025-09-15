@@ -1,0 +1,9 @@
+PROJECT: Berbagi Cerita - Dicoding Submission
+
+MAP_SERVICE=openstreetmap
+MAP_API_KEY=(none)  # OpenStreetMap tidak membutuhkan API key
+
+NOTES:
+- Menggunakan Dicoding Story API (https://story-api.dicoding.dev/v1) sebagai backend.
+- Peta menggunakan OpenStreetMap dengan leaflet.js.
+- Tidak diperlukan API key tambahan.
